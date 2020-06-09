@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "calc-bug"
+    }
+  },
+  "defaultProject": "calc-bug",
+  "cli": {
+    "analytics": false
+  }
 }

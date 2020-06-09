@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --width-a: 10em;
+}
+
+.box {
+    background-color: #ccc;
+    width: calc(var(--width-a)/2 + var(--width-a)/2);
+    height: calc(var(--width-a)/2 + var(--width-a)/2);
+}
